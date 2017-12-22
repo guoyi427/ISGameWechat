@@ -1,0 +1,61 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+/*游戏流程通用模块  */
+.topbar {
+  width: 100%;
+  height: 25px;
+  background: #fff;
+}
+
+.topbarButton {
+  width: 33%;
+  height: 25px;
+  float: left;
+  font-size: 14px;
+  line-height: 25px;
+  color: #888;
+}
+
+.titleView {
+  width: 100%;
+  height: 30px;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+.contentView {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 60px;
+  color: #666666;
+}
+
+.grayLine {
+  width: 100%;
+  height: 2px;
+  background: #f0f0f0;
+}
+
+.bottomButton {
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  background: white;
+  border: 1px solid brown;
+  color: brown;
+}

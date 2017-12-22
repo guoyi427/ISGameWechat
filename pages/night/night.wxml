@@ -1,0 +1,29 @@
+<!--pages/night/night.wxml-->
+<view class='topbar'>
+  <button class='topbarButton'>角色介绍</button>
+  <button class='topbarButton'>游戏进程</button>
+  <button class='topbarButton'>胜利条件</button>
+</view>
+<!--  -->
+<view class='titleView'>身份互认</view>
+
+<view class='browContentView'>由记忆力最好的玩家在闭眼环节主持</view>
+<view class='grayLine'></view>
+<view class='contentView'>全体玩家请闭眼</view>
+<view class='grayLine'></view>
+<view class='contentView'>悍匪、匪老大睁眼，人质竖起拇指。</view>
+<view class='grayLine'></view>
+<view class='contentView'>全体闭眼，收起拇指</view>
+<view class='grayLine'></view>
+<view class='contentView'>警老大请睁眼，卧底竖起拇指</view>
+<view class='grayLine'></view>
+<view class='contentView'>全体闭眼，收起拇指</view>
+<view class='grayLine'></view>
+<view class='contentView'>内奸请睁眼，战士竖起拇指</view>
+<view class='grayLine'></view>
+<view class='contentView'>全体请闭眼，收起拇指</view>
+<view class='grayLine'></view>
+<view class='contentView'>全体睁眼，游戏开始</view>
+<view class='grayLine'></view>
+<!--  -->
+<button class='bottomButton' bindtap='bottomButtonAction'>开场发言</button>

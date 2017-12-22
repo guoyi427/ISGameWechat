@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/perpare/perpare",
+    "pages/night/night"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "维和救援助手",
+    "navigationBarTextStyle": "black"
+  }
+}

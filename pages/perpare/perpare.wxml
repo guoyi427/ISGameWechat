@@ -1,0 +1,24 @@
+<!--pages/perpare/perpare.wxml-->
+<view class='topbar'>
+  <button class='topbarButton'>角色介绍</button>
+  <button class='topbarButton'>游戏进程</button>
+  <button class='topbarButton'>胜利条件</button>
+</view>
+<!--  -->
+<view class='titleView'>抽身份牌</view>
+<view class='contentView'>将号码牌按顺时针从小到大摆放</view>
+<view class='grayLine'></view>
+<view class='contentView'>每人抽取一张身份牌</view>
+<view class='grayLine'></view>
+<!--  -->
+<view class='titleView'>发任务牌</view>
+<view class='contentView'>先从36张任务牌中随机抽出4张</view>
+<view class='grayLine'></view>
+<view class='contentView'>将任务派平均发给个玩家</view>
+<view class='grayLine'></view>
+<view class='contentView'>玩家从拿到的任务牌中保留3张作为手牌</view>
+<view class='grayLine'></view>
+<view class='contentView'>多余任务牌移除游戏</view>
+<view class='grayLine'></view>
+<!--  -->
+<button class='bottomButton' bindtap='bottomButtonAction'>互认身份</button>
