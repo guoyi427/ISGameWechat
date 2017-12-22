@@ -4,7 +4,8 @@
     "pages/perpare/perpare",
     "pages/night/night",
     "pages/speak/speak",
-    "pages/captain/captain"
+    "pages/captain/captain",
+    "pages/captain_play/captain_play"
   ],
   "window": {
     "backgroundTextStyle": "light",

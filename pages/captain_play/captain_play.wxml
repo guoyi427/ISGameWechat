@@ -1,0 +1,19 @@
+<!--pages/captain_play/captain_play.wxml-->
+<!--pages/captainPlay/captainPlay.wxml-->
+<view class='topbar'>
+  <button class='topbarButton'>角色介绍</button>
+  <button class='topbarButton'>游戏进程</button>
+  <button class='topbarButton'>胜利条件</button>
+</view>
+
+<!--  -->
+<view class='contentView'>队长从手牌中选择一张牌扣置打出</view>
+<view class='grayLine'></view>
+<view class='contentView'>出牌阶段出牌者可以自由发言</view>
+<view class='grayLine'></view>
+<view class='contentView'>发言可以表明自己身份、出牌情况、出牌建议等等</view>
+<view class='grayLine'></view>
+
+<!--  -->
+<button class='bottomButton' bindtap='bottomButtonAction'>出牌完毕</button>
+

@@ -1,4 +1,4 @@
-// pages/captain/captain.js
+// pages/captain_play/captain_play.js
 Page({
 
   /**
@@ -12,9 +12,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.setNavigationBarTitle({
-      title: '竞选队长',
-    })
+  
   },
 
   /**
@@ -64,12 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-
-  // 队长出牌按钮
-  bottomButtonAction: function () {
-    wx.navigateTo({
-      url: '../captain_play/captain_play',
-    })
   }
 })
