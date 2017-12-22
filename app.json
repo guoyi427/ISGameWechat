@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/perpare/perpare",
-    "pages/night/night"
+    "pages/night/night",
+    "pages/speak/speak"
   ],
   "window": {
     "backgroundTextStyle": "light",

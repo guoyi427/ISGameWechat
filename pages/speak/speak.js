@@ -1,4 +1,4 @@
-// pages/night/night.js
+// pages/speak/speak.js
 Page({
 
   /**
@@ -13,7 +13,7 @@ Page({
    */
   onLoad: function (options) {
     wx.setNavigationBarTitle({
-      title: '开始游戏-闭眼环节',
+      title: '开场发言',
     })
   },
 
@@ -64,11 +64,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-  // 开场发言按钮 
-  bottomButtonAction: function () {
-    wx.navigateTo({
-      url: '../speak/speak',
-    })
   }
 })

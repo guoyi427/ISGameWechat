@@ -1,0 +1,15 @@
+<!--pages/speak/speak.wxml-->
+<view class='topbar'>
+  <button class='topbarButton'>角色介绍</button>
+  <button class='topbarButton'>游戏进程</button>
+  <button class='topbarButton'>胜利条件</button>
+</view>
+<!--  -->
+<view class='contentView'>随机选择第一个发言玩家</view>
+<view class='grayLine'></view>
+<view class='contentView'>以顺时针方向发言一周</view>
+<view class='grayLine'></view>
+<view class='contentView'>发言可以表达自己身份、手牌如何、对其他玩家的评价等等</view>
+<view class='grayLine'></view>
+<!--  -->
+<button class='bottomButton' bindtap='bottomButtonAction'>发言完毕</button>
