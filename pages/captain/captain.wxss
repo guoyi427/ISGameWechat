@@ -1,0 +1,12 @@
+/* pages/captain/captain.wxss */
+.captainButton {
+  width: 80px;
+  height: 20px;
+  top: 40px; 
+  right: 20px;
+  float: right;
+  font-size: 10px;
+  line-height: 20px;
+  border: 1px solid brown;
+  color: brown;
+}

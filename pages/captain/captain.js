@@ -1,4 +1,4 @@
-// pages/speak/speak.js
+// pages/captain/captain.js
 Page({
 
   /**
@@ -13,7 +13,7 @@ Page({
    */
   onLoad: function (options) {
     wx.setNavigationBarTitle({
-      title: '开场发言',
+      title: '竞选队长',
     })
   },
 
@@ -66,7 +66,7 @@ Page({
   
   },
 
-  // 发言完毕按钮
+  // 队长出牌按钮
   bottomButtonAction: function () {
     wx.navigateTo({
       url: '../captain/captain',

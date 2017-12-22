@@ -1,0 +1,30 @@
+<!--pages/captain/captain.wxml-->
+<view class='topbar'>
+  <button class='topbarButton'>角色介绍</button>
+  <button class='topbarButton'>游戏进程</button>
+  <button class='topbarButton'>胜利条件</button>
+</view>
+<!--  -->
+<view class='titleView'>竞选发言</view>
+
+<view class='browContentView'>竞选队长的玩家举手
+<button class='captainButton'>队长权利</button>
+</view>
+<view class='grayLine'></view>
+
+<view class='contentView'>举手玩家按号码从大到小再次做竞选发言</view>
+<view class='grayLine'></view>
+<view class='contentView'>发言可以表达自己的带队策略</view>
+<view class='grayLine'></view>
+<!--  -->
+<view class='titleView'>竞选投票</view>
+<view class='contentView'>所有玩家民主投票，得票最多的玩家当选本回合队长</view>
+<view class='grayLine'></view>
+<view class='contentView'>竞选者可以投票但不可以选择自己</view>
+<view class='grayLine'></view>
+<view class='contentView'>所有人可以弃票</view>
+<view class='grayLine'></view>
+<view class='contentView'>若出现平票，则由竞选发言时先发言的玩家当选</view>
+<view class='grayLine'></view>
+<!--  -->
+<button class='bottomButton' bindtap='bottomButtonAction'>队长出牌</button>

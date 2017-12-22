@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/perpare/perpare",
     "pages/night/night",
-    "pages/speak/speak"
+    "pages/speak/speak",
+    "pages/captain/captain"
   ],
   "window": {
     "backgroundTextStyle": "light",
