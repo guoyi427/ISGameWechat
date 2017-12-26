@@ -7,7 +7,8 @@ Page({
     motto: '欢迎',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    animationData: {}
   },
   //事件处理函数
   bindViewTap: function() {
@@ -42,6 +43,19 @@ Page({
         }
       })
     }
+  },
+  onShow: function () {
+    var animation = wx.createAnimation({
+     
+    })
+    this.animation = animation
+    animation.scale(2,2).rotate(360).step()
+    animation.scale(1,1).step()
+    animation.scale(2, 2).rotate(0).step()
+    animation.scale(1, 1).step()
+    this.setData({
+      animationData: animation.export()
+    })
   },
   getUserInfo: function(e) {
     console.log(e)
