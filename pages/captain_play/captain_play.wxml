@@ -1,5 +1,3 @@
-<!--pages/captain_play/captain_play.wxml-->
-<!--pages/captainPlay/captainPlay.wxml-->
 <view class='topbar'>
   <button class='topbarButton'>角色介绍</button>
   <button class='topbarButton'>游戏进程</button>

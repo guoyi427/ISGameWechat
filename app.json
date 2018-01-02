@@ -5,7 +5,10 @@
     "pages/night/night",
     "pages/speak/speak",
     "pages/captain/captain",
-    "pages/captain_play/captain_play"
+    "pages/captain_play/captain_play",
+    "pages/rules/rules",
+    "pages/task_transmit/task_transmit",
+    "pages/task_decide/task_decide"
   ],
   "window": {
     "backgroundTextStyle": "light",

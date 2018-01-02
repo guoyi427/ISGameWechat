@@ -1,4 +1,4 @@
 <!--index.wxml-->
 <image class='titleImage' src='/resource/start_title.png'></image>
 <button class='testbutton' bindtap='bindViewTap'>6人测试</button>
-<button class='testbutton' bindtap='bindViewTap' animation="{{animationData}}">8人测试</button>
+ <button class='testbutton' bindtap='bindViewTap'>8人测试</button> 

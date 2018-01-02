@@ -1,0 +1,24 @@
+<view class='topbar'>
+  <button class='topbarButton'>角色介绍</button>
+  <button class='topbarButton'>游戏进程</button>
+  <button class='topbarButton'>胜利条件</button>
+</view>
+
+<!--  -->
+<view class='contentView'>队长出来后选择一名玩家继续打出一张任务牌</view>
+<view class='grayLine'></view>
+<view class='contentView'>以此类对，玩家依次出牌，然后选择下一名出牌玩家</view>
+<view class='grayLine'></view>
+<view class='contentView'>直到场中凑齐5张任务牌后停止传递</view>
+<view class='grayLine'></view>
+<view class='contentView'>将任务牌洗混翻开</view>
+<view class='grayLine'></view>
+<view class='contentView'># 没有手牌的玩家无法参加任务和担任队长，但可以发言和投票</view>
+<view class='grayLine'></view>
+<view class='contentView'># 全场玩家由于手牌不足，无法凑齐5张任务牌时游戏结束，坏人胜利</view>
+<view class='grayLine'></view>
+<view class='contentView'># 每一回合，任务不可两人互传，但可以三人之间传递。</view>
+<view class='grayLine'></view>
+
+<!--  -->
+<button class='bottomButton' bindtap='bottomButtonAction'>任务判定</button>

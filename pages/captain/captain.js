@@ -68,7 +68,7 @@ Page({
 
   // 队长出牌按钮
   bottomButtonAction: function () {
-    wx.redirectTo({
+    wx.navigateTo({
       url: '../captain_play/captain_play',
     })
   }

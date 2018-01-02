@@ -1,0 +1,23 @@
+<view class='topbar'>
+  <button class='topbarButton'>角色介绍</button>
+  <button class='topbarButton'>游戏进程</button>
+  <button class='topbarButton'>胜利条件</button>
+</view>
+
+<!--坚守  -->
+<view class='defenseView {{defenseViewShow}}' id='defense' animation="{{showAnimationData}}">123</view>
+
+<!--  -->
+<view class='contentView'>先将3张坚守牌抵消一张破坏牌</view>
+<view class='grayLine'></view>
+<view class='contentView'>剩余破坏牌抵消所有行动牌和坚守牌，触发后无需移除</view>
+<view class='grayLine'></view>
+<view class='contentView'>场上最后剩下的牌为任务结果</view>
+<view class='grayLine'></view>
+<view class='contentView'># 场上同时留下行动牌和坚守牌时判定为“行动”</view>
+<view class='grayLine'></view>
+
+<!--  -->
+<button class='defenseButton' bindtap='defenseAction'>坚守</button>
+<button class='destroyButton' bindtap='destroyAction'>破坏</button>
+<button class='frieButton' bindtap='fireAction'>行动</button>

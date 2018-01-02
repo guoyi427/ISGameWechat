@@ -13,7 +13,7 @@ Page({
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../perpare/perpare'
+      url: '../task_decide/task_decide'//'../perpare/perpare'//'../rules/rules'
     })
   },
   onLoad: function () {

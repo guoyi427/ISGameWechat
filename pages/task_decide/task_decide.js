@@ -1,11 +1,14 @@
-// pages/captain_play/captain_play.js
+// pages/task_decide/task_decide.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    showAnimationData: {},
+    defenseViewShow: "",
+    destroyViewShow: "",
+    fireViewShow: ""
   },
 
   /**
@@ -13,7 +16,7 @@ Page({
    */
   onLoad: function (options) {
     wx.setNavigationBarTitle({
-      title: '队长出牌',
+      title: '任务判定',
     })
   },
 
@@ -66,10 +69,31 @@ Page({
   
   },
 
-  /// 出牌完毕
-  bottomButtonAction: function () {
-    wx.navigateTo({
-      url: '../task_transmit/task_transmit',
+  /// 坚守
+  defenseAction: function () {
+    var showAnimation = wx.createAnimation({
+      duration: 1000,
+      timingFunction: 'ease',
     })
+
+    this.setData({
+      defenseViewShow: "bottomViewShow"
+    })
+
+    this.showAnimation = showAnimation
+    showAnimation.opacity(1).step()
+    this.setData({
+      showAnimationData:showAnimation.export()
+    })
+  },
+
+  /// 破坏
+  destroyAction: function () {
+
+  },
+
+  /// 行动
+  fireAction: function () {
+
   }
 })

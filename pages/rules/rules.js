@@ -1,4 +1,4 @@
-// pages/captain_play/captain_play.js
+// pages/rules/rules.js
 Page({
 
   /**
@@ -13,7 +13,7 @@ Page({
    */
   onLoad: function (options) {
     wx.setNavigationBarTitle({
-      title: '队长出牌',
+      title: '《维和救援》8-10人规则',
     })
   },
 
@@ -64,12 +64,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-
-  /// 出牌完毕
-  bottomButtonAction: function () {
-    wx.navigateTo({
-      url: '../task_transmit/task_transmit',
-    })
   }
 })

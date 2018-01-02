@@ -1,0 +1,51 @@
+.defenseButton {
+  width: 33%;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  line-height: 30px;
+  font-size: 14px;
+  background: white;
+  border: 1px solid brown;
+  color: brown;
+  float: left;
+}
+
+.destroyButton {
+  width: 33%;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  line-height: 30px;
+  font-size: 14px;
+  background: white;
+  border: 1px solid brown;
+  color: brown;
+  float: left;
+}
+
+.frieButton {
+  width: 33%;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  line-height: 30px;
+  font-size: 14px;
+  background: white;
+  border: 1px solid brown;
+  color: brown;
+  float: left;
+}
+
+.defenseView {
+  width: 100%;
+  height: 200px;
+  top: -200px;
+  background: red; 
+  opacity: 0;
+  display: none;   
+}
+
+.bottomViewShow {
+  display: block;
+}

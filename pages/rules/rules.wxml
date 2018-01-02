@@ -1,0 +1,36 @@
+<!--  -->
+<view class='sectionTitleView'>
+  <image class='sectionIcon' src='/resource/tx.jpg'></image>
+  <text class='sectionText'>角色配置</text>
+</view>
+
+<view class='blueLine'></view>
+
+<view class='roleView'>
+  <text class='blueText'>8人局：</text>
+  <text class='blackText'>战士、悍匪、警老大、匪老大、内奸、卧底、人质、难民。</text>
+</view>
+
+<view class='roleView'>
+  <text class='blueText'>9人局：</text>
+  <text class='blackText'>战士*2、悍匪*2、警老大、匪老大、内奸、卧底、人质。</text>
+</view>
+
+<view class='roleView'>
+  <text class='blueText'>10人局：</text>
+  <text class='blackText'>战士*2、悍匪*2、警老大、匪老大、内奸、卧底、人质、难民。</text>
+</view>
+
+<view class='blueLine'></view>
+
+
+<!--  -->
+<view class='sectionTitleView'>
+  <image class='sectionIcon' src='/resource/tx.jpg'></image>
+  <text class='sectionText'>胜利条件</text>
+</view>
+
+<view class='blueTagView'>
+  <text class='blueTagText'></text>
+  <image class='blueTagDuigou' src='/resource/duigou.jpg'>成功将人质送上救援直升机</image>
+</view>

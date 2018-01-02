@@ -1,4 +1,4 @@
-// pages/captain_play/captain_play.js
+// pages/task_transmit/task_transmit.js
 Page({
 
   /**
@@ -13,7 +13,7 @@ Page({
    */
   onLoad: function (options) {
     wx.setNavigationBarTitle({
-      title: '队长出牌',
+      title: '任务传递',
     })
   },
 
@@ -66,10 +66,10 @@ Page({
   
   },
 
-  /// 出牌完毕
   bottomButtonAction: function () {
     wx.navigateTo({
-      url: '../task_transmit/task_transmit',
+      url: '../task_decide/task_decide',
     })
   }
+  
 })
