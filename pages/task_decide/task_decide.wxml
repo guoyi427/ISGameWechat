@@ -5,7 +5,9 @@
 </view>
 
 <!--坚守  -->
-<view class='defenseView {{defenseViewShow}}' id='defense' animation="{{showAnimationData}}">123</view>
+<view class='defenseView {{defenseViewSub}}' animation="{{viewAnimationData}}">1</view>
+<view class='destroyView {{destroyViewSub}}' animation="{{viewAnimationData}}">2</view>
+<view class='fireView {{fireViewSub}}' animation="{{viewAnimationData}}">3</view>
 
 <!--  -->
 <view class='contentView'>先将3张坚守牌抵消一张破坏牌</view>
@@ -20,4 +22,4 @@
 <!--  -->
 <button class='defenseButton' bindtap='defenseAction'>坚守</button>
 <button class='destroyButton' bindtap='destroyAction'>破坏</button>
-<button class='frieButton' bindtap='fireAction'>行动</button>
+<button class='fireButton' bindtap='fireAction'>行动</button>
